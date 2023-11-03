@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd6d6;
+}
+
+.calculator {
+    width: 360px;
+    height: 620px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.display {
+    width: 100%;
+    height: 105px;
+    font-size: 68px;
+    border: none;
+    border-radius: 20px;
+    text-align: right;
+    padding: 10px;
+    outline: none;
+    color: white;
+    background-color: black ;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    color: white;
+    background-color: #333333;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.otherfunc {
+    color: black;
+    background-color: #a5a5a5;
+}
+
+.mathfunc {
+    background-color: #ff9f0a;
+}
+
+#backspace {
+    background-image: url(/assests/delete-left.svg);
+}
+
+button:active {
+    background-color: #898383;
+}
+
+@media (max-width: 320px) {
+    .calculator {
+        max-width: 92%;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
