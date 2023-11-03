@@ -52,10 +52,6 @@ button {
     background-color: #ff9f0a;
 }
 
-#backspace {
-    background-image: url(/assests/delete-left.svg);
-}
-
 button:active {
     background-color: #898383;
 }
